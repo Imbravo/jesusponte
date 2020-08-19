@@ -1,0 +1,22 @@
+.about-container{
+    background-color: #FFC7AD;
+    color: #F7FFF7;
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.about-content{
+    text-align: center;
+    width: 30%;
+    font-size: 1.2rem;
+}
+
+.underlined{
+    border-bottom: solid;
+    border-color: #F24C00;
+    border-width: 2px;
+}

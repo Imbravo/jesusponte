@@ -1,0 +1,40 @@
+.nav-container{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    height: 6rem;
+    background-color: #F3E9DC;
+    color: #41463D;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.2rem;
+}
+
+.logo-container{
+    justify-self: center;
+    align-self: center;
+}
+
+.center-navs{
+    justify-self: center;
+    align-self: center;
+}
+
+
+.right-navs{
+    justify-self: center;
+    align-self: center;
+}
+
+.center-nav-link{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.center-nav-link:hover{
+    border-bottom: solid;
+    border-color: #F24C00;
+    border-width: 4px;
+    transition: 0.500ms;
+   
+    
+}

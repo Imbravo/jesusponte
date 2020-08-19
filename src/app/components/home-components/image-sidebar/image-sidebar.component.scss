@@ -1,0 +1,31 @@
+.section-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    min-height: 40rem;
+    background-color: #FFAB85;
+    color: #F7FFF7;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.right-container{
+
+}
+
+
+.right-header{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    padding-top: 4rem;
+    .underlined{
+        border-bottom: solid;
+        border-color: #F24C00;
+        border-width: 4px;
+    }
+}
+
+.right-text{
+    margin: 0;
+    font-size: 2rem;
+}
+

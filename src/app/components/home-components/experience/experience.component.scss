@@ -1,0 +1,27 @@
+.experience-container{  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+    background-color: #FFAB85;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 200;
+}
+
+.card-container{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+    padding: 2rem;
+}
+
+
+.card{
+    //background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    height: 10rem;
+}
